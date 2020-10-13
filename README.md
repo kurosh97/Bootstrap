@@ -3,7 +3,7 @@ In here I will be working on Bootstrap. Just basic stuff and try to understand b
 # Web-Page / Bootstrap 
 
 ## Description
-went thru the basics of bootstrap and made a simple page with it. You can clone this and continue from there. 
+Went thru the basics of bootstrap and made a simple page with it. You can clone this and continue from there. 
 
 
 ### Prerequisites
