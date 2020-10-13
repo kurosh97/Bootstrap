@@ -4,14 +4,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="css/tether-theme-basic.scss" />
     <link rel="StyleSheet" href="css/bootstrap.min.css" />
     <link rel="StyleSheet" href="css/style.css" />
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="#collapse" data-target="#MyNav"
+            aria-expanded="false">
+            <span class="navbar-toggler-icon"></span></button>
+        <a href="#" class="navbar-brand">Kurosh Husseini</a>
+
+        <div class="collapse navbar-collapse" id="MyNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <a class="btn btn-outline-success" href="https://google.ca" target="_blank">
+                    Check out this new site.
+                </a>
+                <a class="btn btn-outline-primary" href="https://google.ca" target="_blank">
+                    Read our policies
+                </a>
+            </div>
+        </div>
+        <br /> <br />
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Sidebar</h3>
+            </div>
+            <div class="col-md-8">
+                <form>
+                    <div class="from-group">
+                        <label for="emailInput">Email Address</label>
+                        <input class="form-control" type="email" id="emailInput" aria-describedby="emailHelp"
+                            placeholder="Email" class="from-text text-muted" />
+                        <small id="emailHelp">This is the address of your email</small>
+                    </div>
+
+                    <div class="from-group">
+                        <label for="nameInput">Name</label>
+                        <input class="form-control" type="email" id="nameInput" placeholder="Name" />
+                    </div>
+                    <label for="selectInput">
+                        Type
+                    </label>
+                    <select class="form-control">
+                        <option>Website Downtime</option>
+                        <option>Custom coding</option>
+                        <option>This form does not work</option>
+                    </select>
+                    <br />
+                    <label for="messageText">Message</label>
+                    <textarea name="" class="form-control" placeholder="Message..." id="messageText"></textarea>
+                    <br />
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" />
+                            Check this out
+                        </label>
+                    </div>
+                    <br />
+
+                    <button class="btn btn-success">Send</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/tether.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
